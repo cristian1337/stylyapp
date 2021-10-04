@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/components/Product.css"
+import background from "../images/background.png"
 
 const Product = ({product}) => {
     return (
-        <div className="container-product">
+        <div className="container-product" style={{
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPositionX: '110px',
+            backgroundSize: 'contain'
+        }}>
             <div className="product-image">
                 <img width="100" src={product.image} alt={product.title} />
             </div>

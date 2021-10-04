@@ -11,7 +11,7 @@ import Layout from "../components/Layout";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/stylyapp">
             <Layout>
                 <Switch>
                     <Route exact path="/" component={Home} />

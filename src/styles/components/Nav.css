@@ -16,6 +16,8 @@ ul li {
 ul li p {
     color: white;
     margin: 0;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 ul li i {

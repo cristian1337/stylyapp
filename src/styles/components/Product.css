@@ -9,6 +9,7 @@
     border-radius: 20px;
 }
 .time{
+    font-size: 13px;
     display: flex;
     flex-direction: row;
     align-items: center;
