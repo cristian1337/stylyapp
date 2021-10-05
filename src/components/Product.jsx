@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/components/Product.css"
-import background from "../images/background.png"
+import background from "../images/background.png";
+import "../styles/components/Product.css";
 
-const Product = ({product}) => {
+const Product = ({ product, handleAddToCart }) => {
     return (
         <div className="container-product" style={{
             backgroundImage: `url(${background})`,
@@ -14,15 +14,17 @@ const Product = ({product}) => {
                 <img width="100" src={product.image} alt={product.title} />
             </div>
             <div className="info-product">
-                <h3>{product.title}</h3>
-                <strong>${product.price}</strong>
-                <div className="time">
-                    <i class="far fa-clock"></i>
-                    <p>Aprox. 55min</p>
+                <div className="title-price">
+                    <h3>{product.title}</h3>
+                    <span><strong>${product.price}</strong></span>
                 </div>
-            </div>
-            <div className="arrow">
-                <i class="fas fa-chevron-right"></i>
+                <div className="description">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur hic, libero facilis.</p>
+                </div>
+                <div className="time" onClick={handleAddToCart(product)}>
+                    <i class="fas fa-cart-plus"></i>
+                    <p>Solicitar</p>
+                </div>
             </div>
         </div>
     );

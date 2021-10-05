@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/components/Nav.css"
 
 const Nav = () => {
@@ -6,8 +7,10 @@ const Nav = () => {
         <nav>
             <ul>
                 <li>
-                    <i class="fas fa-home"></i>
-                    <p>Inicio</p>
+                    <Link to="/">
+                        <i class="fas fa-home"></i>
+                        <p>Inicio</p>
+                    </Link>
                 </li>
                 <li>
                     <i class="fas fa-shopping-bag"></i>
