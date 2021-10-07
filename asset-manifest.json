@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/stylyapp/static/css/main.490c2ba5.chunk.css",
-    "main.js": "/stylyapp/static/js/main.43a9cba0.chunk.js",
-    "main.js.map": "/stylyapp/static/js/main.43a9cba0.chunk.js.map",
-    "runtime-main.js": "/stylyapp/static/js/runtime-main.4be2a58c.js",
-    "runtime-main.js.map": "/stylyapp/static/js/runtime-main.4be2a58c.js.map",
-    "static/js/2.6e6c3da1.chunk.js": "/stylyapp/static/js/2.6e6c3da1.chunk.js",
-    "static/js/2.6e6c3da1.chunk.js.map": "/stylyapp/static/js/2.6e6c3da1.chunk.js.map",
-    "static/js/3.b5aa2236.chunk.js": "/stylyapp/static/js/3.b5aa2236.chunk.js",
-    "static/js/3.b5aa2236.chunk.js.map": "/stylyapp/static/js/3.b5aa2236.chunk.js.map",
+    "main.css": "/stylyapp/static/css/main.33a73e35.chunk.css",
+    "main.js": "/stylyapp/static/js/main.9d2a72c5.chunk.js",
+    "main.js.map": "/stylyapp/static/js/main.9d2a72c5.chunk.js.map",
+    "runtime-main.js": "/stylyapp/static/js/runtime-main.255ba44b.js",
+    "runtime-main.js.map": "/stylyapp/static/js/runtime-main.255ba44b.js.map",
+    "static/js/2.350df398.chunk.js": "/stylyapp/static/js/2.350df398.chunk.js",
+    "static/js/2.350df398.chunk.js.map": "/stylyapp/static/js/2.350df398.chunk.js.map",
+    "static/js/3.593f59e2.chunk.js": "/stylyapp/static/js/3.593f59e2.chunk.js",
+    "static/js/3.593f59e2.chunk.js.map": "/stylyapp/static/js/3.593f59e2.chunk.js.map",
     "index.html": "/stylyapp/index.html",
-    "static/css/main.490c2ba5.chunk.css.map": "/stylyapp/static/css/main.490c2ba5.chunk.css.map",
-    "static/js/2.6e6c3da1.chunk.js.LICENSE.txt": "/stylyapp/static/js/2.6e6c3da1.chunk.js.LICENSE.txt",
+    "static/css/main.33a73e35.chunk.css.map": "/stylyapp/static/css/main.33a73e35.chunk.css.map",
+    "static/js/2.350df398.chunk.js.LICENSE.txt": "/stylyapp/static/js/2.350df398.chunk.js.LICENSE.txt",
     "static/media/background.7d1a374e.png": "/stylyapp/static/media/background.7d1a374e.png",
     "static/media/logo.938e7687.svg": "/stylyapp/static/media/logo.938e7687.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4be2a58c.js",
-    "static/js/2.6e6c3da1.chunk.js",
-    "static/css/main.490c2ba5.chunk.css",
-    "static/js/main.43a9cba0.chunk.js"
+    "static/js/runtime-main.255ba44b.js",
+    "static/js/2.350df398.chunk.js",
+    "static/css/main.33a73e35.chunk.css",
+    "static/js/main.9d2a72c5.chunk.js"
   ]
 }
