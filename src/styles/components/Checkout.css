@@ -13,6 +13,7 @@
 .container-products-cart {
     display: flex;
     flex-direction: column;
+    padding-bottom: 200px;
 }
 .product-cart {
     display: flex;
@@ -52,4 +53,31 @@ hr{
     width: 90%;
     background: black;
     margin: auto;
+}
+.total-sale {
+    position: fixed;
+    bottom: 61px;
+    width: 100%;
+    background: #ffbbea;
+}
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.continue button{
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+.total p{
+    font-weight: 600;
 }

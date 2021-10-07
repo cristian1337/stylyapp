@@ -31,7 +31,16 @@ const Checkout = () => {
                     </>
                 ))}
             </div>
-            
+            <div className="total-sale">
+                <div className="total">
+                    <h3>Total:</h3>
+                    <p>$4</p>
+                </div>
+                <div className="continue">
+                    <h3>Cancelar</h3>
+                    <button>Continuar</button>
+                </div>
+            </div>
         </div>
     );
 }
